@@ -2,6 +2,7 @@
 :root {
   --primary-color:  rgba(26, 146, 212, 1.000);
   --secondary-color: rgba(240, 180, 41, 1.000);
+  --main-bg-color: rgba(226, 232, 240, 1.000);
 }
 
 
@@ -82,9 +83,13 @@ nav {
 .logo-image {
     width: 32px;
 }
+.profile-card-avatar {
+    width: 48px;
+    height: 48px;
+}
 
 main {
-    background-color: rgba(226, 232, 240, 1.000);
+    background-color: var(--main-bg-color);
     grid-row: 2/7;
     grid-column: span 5;
 }
