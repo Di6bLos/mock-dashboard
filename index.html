@@ -10,12 +10,12 @@
 <body>
     <header>
         <div class="header-top">
-            <div class="search-bar">
-                <input type="button" class="search-btn">
-                <input type="text" class="search-field">
-            </div>
+            <form class="search-form">
+                <button type="submit" class="search-btn"><img src="icons/search-black.svg" alt="search"></button>
+                <input name="search-field" type="text" id="search-field" autocapitalize="off" autocorrect="off" autocomplete="off"  >
+            </form>
             <div class="profile">
-                <div class="bell-icon"><img src="" alt="bell"></div>
+                <div class="bell-icon icon"><img src="icons/bell-black.svg" alt="bell"></div>
                 <div class="profile-avatar"><img src="" alt="avatar-image"></div>
                 <h3 class="profile-name">Morgan Oakley</h3>
             </div>
@@ -23,8 +23,10 @@
         <div class="header-bottom">
             <div class="welcome-banner">
                 <div class="welcome-avatar"><img src="" alt="avatar-image"></div>
-                <p><b>Hi there,</b></p>
-                <h2 class="profile-name" >Morgan Oakley</h2>
+                <span>
+                    <p><b>Hi there,</b></p>
+                    <h2 class="profile-name" >Morgan Oakley</h2>
+                </span>
                 <h2 class="profile-handle">(@morgan)</h2>
             </div>
             <ul class="header-menu" >
@@ -36,19 +38,19 @@
     </header>
     <nav>
         <div class="logo">
-            <div class="logo-image"><img src="" alt="logo"></div>
+            <div class="logo-image icon"><img src="icons/layout-white.svg" alt="logo"></div>
             <h1>Dashboard</h1>
         </div>
         <ul>
-            <li><div id="home-icon" class="nav-icon"><img src="" alt="home-icon"></div><a href="" class="nav-link">Home</a></li>
-            <li><div id="profile-icon" class="nav-icon"><img src="" alt="profile-icon"></div><a href="" class="nav-link">Profile</a></li>
-            <li><div id="messages-icon" class="nav-icon"><img src="" alt="messages-icon"></div><a href="" class="nav-link">Messages</a></li>
-            <li><div id="history-icon" class="nav-icon"><img src="" alt="history-icon"></div><a href="" class="nav-link">History</a></li>
-            <li><div id="tasks-icon" class="nav-icon"><img src="" alt="tasks-icon"></div><a href="" class="nav-link">Tasks</a></li>
-            <li><div id="communities-icon" class="nav-icon"><img src="" alt="communities-icon"></div><a href="" class="nav-link">Communities</a></li>
-            <li><div id="settings-icon" class="nav-icon"><img src="" alt="settings-icon"></div><a href="" class="nav-link">Settings</a></li>
-            <li><div id="support-icon" class="nav-icon"><img src="" alt="support-icon"></div><a href="" class="nav-link">Support</a></li>
-            <li><div id="privacy-icon" class="nav-icon"><img src="" alt="privacy-icon"></div><a href="" class="nav-link">Privacy</a></li>
+            <li><div id="home-icon" class="nav-icon icon"><img src="icons/home-white.svg" alt="home-icon"></div><a href="" class="nav-link">Home</a></li>
+            <li><div id="profile-icon" class="nav-icon icon"><img src="icons/user-white.svg" alt="profile-icon"></div><a href="" class="nav-link">Profile</a></li>
+            <li><div id="messages-icon" class="nav-icon icon"><img src="icons/message-square-white.svg" alt="messages-icon"></div><a href="" class="nav-link">Messages</a></li>
+            <li><div id="history-icon" class="nav-icon icon"><img src="icons/clock-white.svg" alt="history-icon"></div><a href="" class="nav-link">History</a></li>
+            <li><div id="tasks-icon" class="nav-icon icon"><img src="icons/file-white.svg" alt="tasks-icon"></div><a href="" class="nav-link">Tasks</a></li>
+            <li><div id="communities-icon" class="nav-icon icon"><img src="icons/users-white.svg" alt="communities-icon"></div><a href="" class="nav-link">Communities</a></li>
+            <li><div id="settings-icon" class="nav-icon icon"><img src="icons/settings-white.svg" alt="settings-icon"></div><a href="" class="nav-link">Settings</a></li>
+            <li><div id="support-icon" class="nav-icon icon"><img src="icons/alert-circle-white.svg" alt="support-icon"></div><a href="" class="nav-link">Support</a></li>
+            <li><div id="privacy-icon" class="nav-icon icon"><img src="icons/shield-white.svg" alt="privacy-icon"></div><a href="" class="nav-link">Privacy</a></li>
         </ul>
     </nav>
     <main>
