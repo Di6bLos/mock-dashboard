@@ -27,8 +27,8 @@ body {
     height: 100%;
     overflow-y: auto;
     display: grid;
-    grid-template-columns: 300px repeat(4, 1fr);
-    grid-template-rows: 200px repeat(5, 1fr) ;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(6, 1fr) ;
     font-family: 'raleway';
 }
 img,
@@ -112,7 +112,7 @@ header .btn {
     color: white;
     padding: var(--basic-pad);
     /* margin: var(--basic-pad); */
-    border-radius: 50%/100%;
+    border-radius: 25px;
 }
 header b {
     color: black;
@@ -162,7 +162,7 @@ main {
     grid-row: 2/7;
     grid-column: span 5;
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr; */
     gap: 1em;
     padding: 1em;
@@ -180,6 +180,7 @@ p {
     grid-column: 1/2;
     grid-row: span 3;
     overflow: scroll;
+    min-width: 300px;
 }
 .cards-container{
     display: grid;
@@ -220,7 +221,7 @@ p {
     background-color: white;
     padding: 1em .5em;
     border-radius: 8px;
-    width: 300px;
+    max-width: 300px;
     /* max-height: 100%; */
 }
 .article{
