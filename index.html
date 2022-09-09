@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -38,75 +41,88 @@
             </ul>
         </div>
     </header>
+    <!-- --------navigation Side-bar-------- -->
     <nav>
-        <div class="logo">
+        <div class="nav-item logo">
             <div class="logo-image icon"><img src="icons/layout-white.svg" alt="logo"></div>
             <h1>Dashboard</h1>
         </div>
         <ul>
-            <li><div id="home-icon" class="nav-icon icon"><img src="icons/home-white.svg" alt="home-icon"></div><a href="" class="nav-link">Home</a></li>
-            <li><div id="profile-icon" class="nav-icon icon"><img src="icons/user-white.svg" alt="profile-icon"></div><a href="" class="nav-link">Profile</a></li>
-            <li><div id="messages-icon" class="nav-icon icon"><img src="icons/message-square-white.svg" alt="messages-icon"></div><a href="" class="nav-link">Messages</a></li>
-            <li><div id="history-icon" class="nav-icon icon"><img src="icons/clock-white.svg" alt="history-icon"></div><a href="" class="nav-link">History</a></li>
-            <li><div id="tasks-icon" class="nav-icon icon"><img src="icons/file-white.svg" alt="tasks-icon"></div><a href="" class="nav-link">Tasks</a></li>
-            <li><div id="communities-icon" class="nav-icon icon"><img src="icons/users-white.svg" alt="communities-icon"></div><a href="" class="nav-link">Communities</a></li>
-            <li><div id="settings-icon" class="nav-icon icon"><img src="icons/settings-white.svg" alt="settings-icon"></div><a href="" class="nav-link">Settings</a></li>
-            <li><div id="support-icon" class="nav-icon icon"><img src="icons/alert-circle-white.svg" alt="support-icon"></div><a href="" class="nav-link">Support</a></li>
-            <li><div id="privacy-icon" class="nav-icon icon"><img src="icons/shield-white.svg" alt="privacy-icon"></div><a href="" class="nav-link">Privacy</a></li>
+            <li class="nav-item"><div id="home-icon" class="nav-icon icon"><img src="icons/home-white.svg" alt="home-icon"></div><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item"><div id="profile-icon" class="nav-icon icon"><img src="icons/user-white.svg" alt="profile-icon"></div><a href="" class="nav-link">Profile</a></li>
+            <li class="nav-item"><div id="messages-icon" class="nav-icon icon"><img src="icons/message-square-white.svg" alt="messages-icon"></div><a href="" class="nav-link">Messages</a></li>
+            <li class="nav-item"><div id="history-icon" class="nav-icon icon"><img src="icons/clock-white.svg" alt="history-icon"></div><a href="" class="nav-link">History</a></li>
+            <li class="nav-item"><div id="tasks-icon" class="nav-icon icon"><img src="icons/file-white.svg" alt="tasks-icon"></div><a href="" class="nav-link">Tasks</a></li>
+            <li class="nav-item"><div id="communities-icon" class="nav-icon icon"><img src="icons/users-white.svg" alt="communities-icon"></div><a href="" class="nav-link">Communities</a></li>
+            <li class="nav-item"><div id="settings-icon" class="nav-icon icon"><img src="icons/settings-white.svg" alt="settings-icon"></div><a href="" class="nav-link">Settings</a></li>
+            <li class="nav-item"><div id="support-icon" class="nav-icon icon"><img src="icons/alert-circle-white.svg" alt="support-icon"></div><a href="" class="nav-link">Support</a></li>
+            <li class="nav-item"><div id="privacy-icon" class="nav-icon icon"><img src="icons/shield-white.svg" alt="privacy-icon"></div><a href="" class="nav-link">Privacy</a></li>
         </ul>
     </nav>
     <main>
-       <section class="projects-container">
-        <h3>Projects</h3>
+       <section class="projects-wrap">
+        <h3>Your Projects</h3>
         <div class="cards-container">
-            <div class="card">
-                <h4>Cool Project</h4>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+            <div class="project-card">
+                <div class="project-card-text">
+                    <h4 class="project-card-title">Cool Project</h4>
+                    <p class="project-card-body">Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan necSuspendisse sollictudin bunh etat, id facilisis felis accumsan necSuspendisse sollictudin bunh etat, id facilisis felis accumsan necSuspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+                </div>
                 <div class="card-icons-wrap">
                     <div class="icon card-icon star-icon"><img src="icons/star-black.svg" alt="star-icon"></div>
                     <div class="icon card-icon eye-icon"><img src="icons/eye-black.svg" alt="eye-icon"></div>
                     <div class="icon card-icon share-icon"><img src="icons/share-black.svg" alt="share-icon"></div>
                 </div>
             </div>
-            <div class="card">
-                <h4>Cool Project</h4>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+            <div class="project-card">
+                <div class="project-card-text">
+                    <h4 class="project-card-title">Cool Project</h4>
+                    <p class="project-card-body">Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+                </div>
                 <div class="card-icons-wrap">
                     <div class="icon card-icon star-icon"><img src="icons/star-black.svg" alt="star-icon"></div>
                     <div class="icon card-icon eye-icon"><img src="icons/eye-black.svg" alt="eye-icon"></div>
                     <div class="icon card-icon share-icon"><img src="icons/share-black.svg" alt="share-icon"></div>
                 </div>
             </div>
-            <div class="card">
-                <h4>Cool Project</h4>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+            <div class="project-card">
+                <div class="project-card-text">
+                    <h4 class="project-card-title">Cool Project</h4>
+                    <p class="project-card-body">Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+                </div>
                 <div class="card-icons-wrap">
                     <div class="icon card-icon star-icon"><img src="icons/star-black.svg" alt="star-icon"></div>
                     <div class="icon card-icon eye-icon"><img src="icons/eye-black.svg" alt="eye-icon"></div>
                     <div class="icon card-icon share-icon"><img src="icons/share-black.svg" alt="share-icon"></div>
                 </div>
             </div>
-            <div class="card">
-                <h4>Cool Project</h4>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+            <div class="project-card">
+                <div class="project-card-text">
+                    <h4 class="project-card-title">Cool Project</h4>
+                    <p class="project-card-body">Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+                </div>
                 <div class="card-icons-wrap">
                     <div class="icon card-icon star-icon"><img src="icons/star-black.svg" alt="star-icon"></div>
                     <div class="icon card-icon eye-icon"><img src="icons/eye-black.svg" alt="eye-icon"></div>
                     <div class="icon card-icon share-icon"><img src="icons/share-black.svg" alt="share-icon"></div>
                 </div>
             </div>
-            <div class="card">
-                <h4>Cool Project</h4>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+            <div class="project-card">
+                <div class="project-card-text">
+                    <h4 class="project-card-title">Cool Project</h4>
+                    <p class="project-card-body">Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+                </div>
                 <div class="card-icons-wrap">
                     <div class="icon card-icon star-icon"><img src="icons/star-black.svg" alt="star-icon"></div>
                     <div class="icon card-icon eye-icon"><img src="icons/eye-black.svg" alt="eye-icon"></div>
                     <div class="icon card-icon share-icon"><img src="icons/share-black.svg" alt="share-icon"></div>
                 </div>
             </div>
-            <div class="card">
-                <h4>Cool Project</h4>
-                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+            <div class="project-card">
+                <div class="project-card-text">
+                    <h4 class="project-card-title">Cool Project</h4>
+                    <p class="project-card-body">Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan nec.</p>
+                </div>
                 <div class="card-icons-wrap">
                     <div class="icon card-icon star-icon"><img src="icons/star-black.svg" alt="star-icon"></div>
                     <div class="icon card-icon eye-icon"><img src="icons/eye-black.svg" alt="eye-icon"></div>
@@ -115,45 +131,53 @@
             </div>
         </div>
        </section> 
-       <section class="announcements-container">
+       <section class="announcements-wrap">
         <h3>Announcements</h3>
-        <div class="article-container">
+        <div class="articles-container">
             <div class="article">
-                <p><b>Site Maintenance</b></p>
-                <p>Nam vel lectus ticdunt rutrun</p>
+                <h4 class="article-title">Site Maintenance</h4>
+                <p class="article-body">Sed tempus ut lacus ut scelerisque. Suspendisse sollictudin bunh etat, id facilisis felis accumsan necSuspNam vel lectus ticdunt rutrun</p>
             </div>
             <div class="article">
-                <p><b>Site Maintenance</b></p>
-                <p>Nam vel lectus ticdunt rutrun</p>
+                <h4 class="article-title">Site Maintenance</h4>
+                <p class="article-body">Nam vel lectus ticdunt rutrun</p>
             </div>
             <div class="article">
-                <p><b>Site Maintenance</b></p>
-                <p>Nam vel lectus ticdunt rutrun</p>
+                <h4 class="article-title">Site Maintenance</h4>
+                <p class="article-body">Nam vel lectus ticdunt rutrun</p>
             </div>
         </div>
        </section>
-       <section class="trending-container">
+       <section class="trending-wrap">
         <h3>Trending</h3>
         <div class="profiles-container">
             <div class="profile-card">
                 <div class="profile-card-avatar"><img src="images/profile-photo-1.png" alt="profile-photo"></div>
-                <p class="profile-card-handle">@tegan</p>
-                <p class="profile-card-project">Cool project</p>
+                <div class="profile-card-text">
+                    <p class="profile-card-handle">@tegan</p>
+                    <p class="profile-card-project">Cool project</p>
+                </div>
             </div>
             <div class="profile-card">
                 <div class="profile-card-avatar"><img src="images/profile-photo-3.png" alt="profile-photo"></div>
-                <p class="profile-card-handle">@tegan</p>
-                <p class="profile-card-project">Cool project</p>
+                <div class="profile-card-text">
+                    <p class="profile-card-handle">@tegan</p>
+                    <p class="profile-card-project">Cool project</p>
+                </div>
             </div>
             <div class="profile-card">
                 <div class="profile-card-avatar"><img src="images/profile-photo-6.png" alt="profile-photo"></div>
-                <p class="profile-card-handle">@tegan</p>
-                <p class="profile-card-project">Cool project</p>
+                <div class="profile-card-text">
+                    <p class="profile-card-handle">@tegan</p>
+                    <p class="profile-card-project">Cool project</p>
+                </div>
             </div>
             <div class="profile-card">
-                <div class="profile-card-avatar"><img src="images/profile-photo-6.png" alt="profile-photo"></div>
-                <p class="profile-card-handle">@tegan</p>
-                <p class="profile-card-project">Cool project</p>
+                <div class="profile-card-avatar"><img src="images/profile-photo-5.png" alt="profile-photo"></div>
+                <div class="profile-card-text">
+                    <p class="profile-card-handle">@tegan</p>
+                    <p class="profile-card-project">Cool project</p>
+                </div>
             </div>
 
         </div>
