@@ -103,6 +103,7 @@ header>div {
 .header-profile-handle{
     margin-left: .5rem;
 }
+/* -------- Header menu buttons -------- */
 .header-menu {
     display: flex;
     gap: 1em;
@@ -113,6 +114,7 @@ header .btn {
     padding: var(--basic-pad);
     /* margin: var(--basic-pad); */
     border-radius: 25px;
+    font-weight:  500;
 }
 header b {
     color: black;
